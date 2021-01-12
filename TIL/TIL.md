@@ -12,3 +12,9 @@
     - 결과적으로 column이 1개인 2D matrix 화 됨
 - 입출력이 제한적인 솔루션의 경우 Finite State Machine(FSM)을 통해 안정성 확보가 가능함
     - 참조 : https://ozt88.tistory.com/8
+- 경고 처리 : SettingWithCopyWarning: A value is trying to be set on a copy of a slice from a DataFrame
+    - 참조 : https://emilkwak.github.io/pandas-dataframe-settingwithcopywarning
+- pandas DataFrame 복사할 때 deep copy 별도로 써줘야 됨
+- pandas DataFrame 조건부 인덱싱
+    - 예시 : pred.loc[pred['0SRF_Cha1'] >= thresh, '0SRF_Dis1'] = overThresh_Dis_mean
+   
