@@ -17,4 +17,4 @@
 - pandas DataFrame 복사할 때 deep copy 별도로 써줘야 됨
 - pandas DataFrame 조건부 인덱싱
     - 예시 : pred.loc[pred['0SRF_Cha1'] >= thresh, '0SRF_Dis1'] = overThresh_Dis_mean
-   
+- git add . 했을 때 폴더가 더해지지 않았다? 폴더 안에 .gitignore 파일 있으면 제거하기
